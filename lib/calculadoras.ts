@@ -83,6 +83,15 @@ export const tools: Calculator[] = [
     category: "estudios",
     emoji: "📊",
   },
+    {
+    id: "regla-de-tres",
+    title: "Regla de tres",
+    description:
+      "Resuelve reglas de tres directas e inversas de forma rápida y sencilla.",
+    href: "/estudios/regla-de-tres",
+    category: "estudios",
+    emoji: "🔢",
+  },
 
   // 💰 DINERO
   {
