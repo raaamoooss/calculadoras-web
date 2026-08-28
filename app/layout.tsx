@@ -13,41 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://calculatodo.com"),
-
   title: {
-    default: "CalculaTodo - Calculadoras online gratuitas",
+    default: "CalculaTodo | Calculadoras online gratuitas",
     template: "%s | CalculaTodo",
   },
-
   description:
-    "Calculadoras online gratuitas para coche, estudios, dinero y mucho más. Calcula de forma rápida, sencilla y sin registrarte.",
-
+    "Calculadoras online gratuitas, sencillas y rápidas para estudios, coche, viajes y finanzas.",
   keywords: [
     "calculadoras online",
-    "calculadora",
-    "calculadoras gratuitas",
-    "calculadora de notas",
-    "calculadora de ahorro",
+    "calculadora gratuita",
+    "calculadoras",
+    "calcular",
     "calculadora coche",
+    "calculadora estudios",
+    "calculadora financiera",
   ],
-
-  authors: [{ name: "CalculaTodo" }],
-
-  creator: "CalculaTodo",
-
   robots: {
     index: true,
     follow: true,
-  },
-
-  openGraph: {
-    title: "CalculaTodo - Calculadoras online gratuitas",
-    description:
-      "Calculadoras online gratuitas para coche, estudios, dinero y mucho más.",
-    type: "website",
-    locale: "es_ES",
-    siteName: "CalculaTodo",
   },
 };
 
